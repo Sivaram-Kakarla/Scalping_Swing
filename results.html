@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Strategy Results — Nifty 50 — 2026-04-13</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d1117; color: #e6edf3; font-family: 'Segoe UI', sans-serif; padding: 24px; }
+  a { color: #58a6ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .back { display: inline-block; margin-bottom: 20px; font-size: 14px; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .subtitle { color: #8b949e; font-size: 14px; margin-bottom: 24px; }
+  .compare { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 28px; max-width: 900px; }
+  .compare-box { background:#161b22; border:1px solid #30363d; border-radius:8px; padding:14px 18px; }
+  .compare-box.active { border-color:#22c55e55; }
+  .strat-label { font-size: 11px; color: #8b949e; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+  .net { font-size: 26px; font-weight: 700; }
+  .net-pos { color: #22c55e; } .net-neg { color: #ef4444; }
+  .meta { font-size: 12px; color: #8b949e; margin-top: 2px; }
+  .section { max-width: 700px; margin-bottom: 32px; }
+  h2 { font-size: 17px; border-bottom: 1px solid #30363d; padding-bottom: 6px; margin-bottom: 12px; }
+  .summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px 16px; margin-bottom: 14px; }
+  .summary .label { color: #8b949e; font-size: 12px; }
+  .summary .val { font-weight: 600; font-size: 14px; }
+  .green { color: #22c55e; } .red { color: #ef4444; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { color: #8b949e; text-align: left; padding: 6px 8px; border-bottom: 1px solid #30363d; }
+  td { padding: 6px 8px; border-bottom: 1px solid #1c2128; }
+  .pts-pos { color: #22c55e; font-weight: 600; }
+  .pts-neg { color: #ef4444; font-weight: 600; }
+  .rules { background:#161b22; border:1px solid #22c55e33; border-radius:8px; padding:14px 18px; margin-top:20px; font-size:13px; line-height:1.8; color:#8b949e; max-width: 700px; }
+  .rules b { color:#f0f6fc; }
+  .note { color:#8b949e; font-size:11px; margin-top:12px; }
+</style>
+</head>
+<body>
+<a class="back" href="chart.html">← Back to Chart</a>
+<h1>Nifty 50 — Strategy Results</h1>
+<div class="subtitle">2026-04-13 · 213 candles · LTP ₹23,829.05</div>
+
+<div class="compare">
+  <div class="compare-box">
+    <div class="strat-label">V1 · All-9</div>
+    <div class="net net-neg">-57.4 pts</div>
+    <div class="meta">4 trades · 25.0% win</div>
+  </div>
+  <div class="compare-box">
+    <div class="strat-label">V2 · Ribbon Edge</div>
+    <div class="net net-neg">-49.8 pts</div>
+    <div class="meta">10 trades · 20.0% win</div>
+  </div>
+  <div class="compare-box active">
+    <div class="strat-label">V3 · Trend Ride ✦</div>
+    <div class="net net-neg">-55.75 pts</div>
+    <div class="meta">5 trades · 20.0% win</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>V3 — Trend Ride (arrows on chart) ✦</h2>
+  <div class="summary">
+    <div><span class="label">Trades</span><br><span class="val">5</span></div>
+    <div><span class="label">Winners</span><br><span class="val green">1</span></div>
+    <div><span class="label">Losers</span><br><span class="val red">4</span></div>
+    <div><span class="label">Win Pts</span><br><span class="val green">+3.7</span></div>
+    <div><span class="label">Loss Pts</span><br><span class="val red">-59.45</span></div>
+    <div><span class="label">Win Rate</span><br><span class="val">20.0%</span></div>
+  </div>
+  <table>
+    <tr><th>#</th><th>Type</th><th>Entry</th><th>Exit</th><th>Pts</th></tr>
+    <tr><td>1</td><td>🔴 SHORT</td><td>₹23598.75</td><td>₹23643.35</td><td class="pts-neg">-44.6</td></tr><tr><td>2</td><td>🟢 LONG</td><td>₹23715.8</td><td>₹23706.4</td><td class="pts-neg">-9.4</td></tr><tr><td>3</td><td>🟢 LONG</td><td>₹23732.1</td><td>₹23731.7</td><td class="pts-neg">-0.4</td></tr><tr><td>4</td><td>🟢 LONG</td><td>₹23793.35</td><td>₹23797.05</td><td class="pts-pos">+3.7</td></tr><tr><td>5</td><td>🟢 LONG</td><td>₹23830.6</td><td>₹23825.55</td><td class="pts-neg">-5.05</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>V2 — Ribbon Edge (fast exit)</h2>
+  <div class="summary">
+    <div><span class="label">Trades</span><br><span class="val">10</span></div>
+    <div><span class="label">Winners</span><br><span class="val green">2</span></div>
+    <div><span class="label">Losers</span><br><span class="val red">8</span></div>
+    <div><span class="label">Win Pts</span><br><span class="val green">+18.95</span></div>
+    <div><span class="label">Loss Pts</span><br><span class="val red">-68.75</span></div>
+    <div><span class="label">Win Rate</span><br><span class="val">20.0%</span></div>
+  </div>
+  <table>
+    <tr><th>#</th><th>Type</th><th>Entry</th><th>Exit</th><th>Pts</th></tr>
+    <tr><td>1</td><td>🔴 SHORT</td><td>₹23598.75</td><td>₹23625.4</td><td class="pts-neg">-26.65</td></tr><tr><td>2</td><td>🟢 LONG</td><td>₹23715.8</td><td>₹23706.55</td><td class="pts-neg">-9.25</td></tr><tr><td>3</td><td>🟢 LONG</td><td>₹23717.5</td><td>₹23707.2</td><td class="pts-neg">-10.3</td></tr><tr><td>4</td><td>🟢 LONG</td><td>₹23732.1</td><td>₹23743.25</td><td class="pts-pos">+11.15</td></tr><tr><td>5</td><td>🟢 LONG</td><td>₹23793.35</td><td>₹23786.7</td><td class="pts-neg">-6.65</td></tr><tr><td>6</td><td>🟢 LONG</td><td>₹23788.5</td><td>₹23796.3</td><td class="pts-pos">+7.8</td></tr><tr><td>7</td><td>🟢 LONG</td><td>₹23810.2</td><td>₹23808.65</td><td class="pts-neg">-1.55</td></tr><tr><td>8</td><td>🟢 LONG</td><td>₹23830.6</td><td>₹23825.6</td><td class="pts-neg">-5.0</td></tr><tr><td>9</td><td>🟢 LONG</td><td>₹23827.5</td><td>₹23826.1</td><td class="pts-neg">-1.4</td></tr><tr><td>10</td><td>🟢 LONG</td><td>₹23833.5</td><td>₹23825.55</td><td class="pts-neg">-7.95</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>V1 — Original (All-9 Green/Red)</h2>
+  <div class="summary">
+    <div><span class="label">Trades</span><br><span class="val">4</span></div>
+    <div><span class="label">Winners</span><br><span class="val green">1</span></div>
+    <div><span class="label">Losers</span><br><span class="val red">3</span></div>
+    <div><span class="label">Win Pts</span><br><span class="val green">+119.5</span></div>
+    <div><span class="label">Loss Pts</span><br><span class="val red">-176.9</span></div>
+    <div><span class="label">Win Rate</span><br><span class="val">25.0%</span></div>
+  </div>
+  <table>
+    <tr><th>#</th><th>Type</th><th>Entry</th><th>Exit</th><th>Pts</th></tr>
+    <tr><td>1</td><td>🔴 SHORT</td><td>₹23583.95</td><td>₹23671.8</td><td class="pts-neg">-87.85</td></tr><tr><td>2</td><td>🟢 LONG</td><td>₹23671.8</td><td>₹23646.15</td><td class="pts-neg">-25.65</td></tr><tr><td>3</td><td>🔴 SHORT</td><td>₹23646.15</td><td>₹23709.55</td><td class="pts-neg">-63.4</td></tr><tr><td>4</td><td>🟢 LONG</td><td>₹23709.55</td><td>₹23829.05*</td><td class="pts-pos">+119.5</td></tr>
+  </table>
+</div>
+
+<div class="rules">
+  <b>V2 Rules (Ribbon Edge — fast exit):</b><br>
+  ENTRY: Same as V3 below<br>
+  EXIT: Fast EMAs lose direction, price slips below EMA12, or ribbon stack breaks<br>
+  <b>Goes flat after exit — no forced reversals</b>
+</div>
+<div class="rules" style="margin-top:12px;border-color:#a855f755">
+  <b>V3 Rules (Trend Ride — relaxed exit):</b><br>
+  ENTRY: Ribbon must be cleanly stacked and expanded<br>
+  &nbsp;&nbsp;+ ≥6/9 ribbons agree with direction<br>
+  &nbsp;&nbsp;+ Adjacent EMA gaps stay separated, not overlapped<br>
+  &nbsp;&nbsp;+ Price must hug the active edge: top green edge for LONG, bottom red edge for SHORT<br>
+  &nbsp;&nbsp;+ Close stays above/below EMA36 and EMA12-EMA36 spread stays wide enough<br>
+  EXIT: Only when ribbon majority flips (&lt;5/9 green for LONG, &lt;5/9 red for SHORT)<br>
+  &nbsp;&nbsp;OR price drops below EMA36 (LONG) / rises above EMA36 (SHORT)<br>
+  <b>Goes flat after exit — stays in trade as long as ribbon holds</b>
+</div>
+<div class="note">* = still open at last candle</div>
+
+</body>
+</html>

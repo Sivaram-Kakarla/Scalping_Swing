@@ -1,0 +1,9 @@
+smartapi-python
+logzero
+pyotp
+pytz
+pandas
+numpy
+websockets
+python-dotenv
+upstash-redis

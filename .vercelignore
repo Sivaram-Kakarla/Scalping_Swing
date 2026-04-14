@@ -1,0 +1,7 @@
+.venv
+.env
+logs
+chart.html
+results.html
+__pycache__
+*.pyc

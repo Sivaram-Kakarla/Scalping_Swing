@@ -1,0 +1,35 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "api/*.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/api/chart.py"
+        },
+        {
+            "src": "/trades",
+            "dest": "/api/trades.py"
+        },
+        {
+            "src": "/api/trades",
+            "dest": "/api/trades.py"
+        },
+        {
+            "src": "/results",
+            "dest": "/api/results.py"
+        },
+        {
+            "src": "/api/chart",
+            "dest": "/api/chart.py"
+        },
+        {
+            "src": "/api/results",
+            "dest": "/api/results.py"
+        }
+    ]
+}
